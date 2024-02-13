@@ -1,0 +1,53 @@
+name: Calculate Grant
+
+on:
+  repository_dispatch:
+    types: [ calculate-grant-trigger ]
+  workflow_dispatch:
+
+jobs:
+  calculate_grant:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Go environment
+        uses: actions/setup-go@v2
+        with:
+          go-version: '^1.21'
+
+      - name: Download osmosisd binary
+        run: |
+          wget $(curl -s https://api.github.com/repos/osmosis-labs/osmosis/releases/latest | grep browser_download_url | cut -d '"' -f 4 | grep 'linux-amd64') -O osmosisd
+          chmod +x osmosisd
+          sudo mv osmosisd /usr/local/bin/
+
+      - name: Fetch the latest block height
+        id: latest_block_height
+        run: |
+          LATEST_HEIGHT=$(curl -s https://rpc.osmosis.zone/status? | jq -r '.result.sync_info.latest_block_height')
+          echo "Latest block height is $LATEST_HEIGHT"
+          echo "::set-output name=block_height::$LATEST_HEIGHT"
+
+      - name: Calculate Grant
+        id: calculate_grant
+        env:
+          OSMOSIS_RPC: ${{ secrets.OSMOSIS_RPC }}
+        run: |
+          OUTPUT=$(go run main.go calculate-grant ${{ steps.latest_block_height.outputs.block_height }})
+          echo "$OUTPUT" > output.yaml
+
+      - name: Commit and Push Grant File
+        run: |
+          DATE=$(date +%m-%d-%Y)
+          BLOCK_HEIGHT=${{ steps.latest_block_height.outputs.block_height }}
+          mkdir -p grants
+          mv output.yaml grants/${DATE}.yaml
+          git config --global user.name 'github-actions'
+          git config --global user.email 'actions@github.com'
+          git add grants/
+          git commit -m "Automated grant calculation for $DATE at block height $BLOCK_HEIGHT"
+          git push
+

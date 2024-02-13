@@ -1,0 +1,136 @@
+tvlpervault:
+    - address: osmo1zvyemtz9tuyhucq6vqfk556zzz62pznya6pch2ndqxtq7amlxkdq3zkl54
+      coins:
+        - denom: ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB
+          amount: "241292972169"
+        - denom: ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4
+          amount: "413428344480"
+      totalusd: "654724.936044"
+    - address: osmo1d8qurgqg0crmz7eye4jy8vm47l3a3582vzs7nlapxfqmvdag84zswcshj5
+      coins:
+        - denom: ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858
+          amount: "19915665326"
+        - denom: ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB
+          amount: "8230206201"
+      totalusd: "28145.994980"
+    - address: osmo1f080p762n24nlw0synurvf9qqyjgmhltl63u7h43acjph26lg4ks9hda9d
+      coins:
+        - denom: ibc/C140AFD542AE77BD7DCC83F13FDD8C5E5BB8C4929785E6EC2F4C636F98F17901
+          amount: "71245632435"
+        - denom: ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2
+          amount: "232724924788"
+      totalusd: "3248127.392220"
+    - address: osmo1dzp8curq2wsnht5mw3eknqw9n6990rk2n095hu3r882dxp6zcvwsxwum7q
+      coins:
+        - denom: uosmo
+          amount: "133257735718"
+        - denom: ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858
+          amount: "74769818237"
+      totalusd: "293738.663053"
+    - address: osmo1jmjnwq26f4d90t9htzagl7llfznnrglpfl0m4a94lnr3kr0fr4asgjmf8p
+      coins:
+        - denom: uosmo
+          amount: "68818067432"
+        - denom: ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858
+          amount: "31425807529"
+      totalusd: "144507.518297"
+    - address: osmo1jq30cd6vdy9x4pe09kr2dartt53mfvxtkqn7mt93m6aqa4c2vxsswuv52f
+      coins:
+        - denom: uosmo
+          amount: "55720618049"
+        - denom: ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB
+          amount: "29975615357"
+      totalusd: "121536.073128"
+    - address: osmo1jwe0hq84cvnfpfn3yvvffcxpe0wjtj3s0jtrs6xsjx6z4zca043qzhht0r
+      coins:
+        - denom: uosmo
+          amount: "6854568151"
+        - denom: ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB
+          amount: "3047616116"
+      totalusd: "14311.074507"
+    - address: osmo13js5psx8xcep0j9mghll3fa8xgm8krr2muaeqwvpqphcavf5krrqe8ugfp
+      coins:
+        - denom: uosmo
+          amount: "212426774931"
+        - denom: ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2
+          amount: "11133437586"
+      totalusd: "460614.982579"
+    - address: osmo10u2xf9ck06kx6fh4dwkhp0hc9ejyf5h4j8tds6e466ar7r8y4t3qplzxxl
+      coins:
+        - denom: uosmo
+          amount: "26654215703"
+        - denom: ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2
+          amount: "1396966306"
+      totalusd: "57795.591479"
+    - address: osmo1cpt2dvm78l50f4ehqdgc47twpfk8yyany09kesqd7r4xwttz89qq42gyjw
+      coins:
+        - denom: uosmo
+          amount: "4297578270"
+        - denom: ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5
+          amount: "1742592775361782326"
+      totalusd: "11697.081454"
+    - address: osmo15uk8m3wchpee8gjl02lwelxlsl4uuy3pdy7u6kz7cu7krlph2xpscf53cy
+      coins:
+        - denom: ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877
+          amount: "0"
+        - denom: ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4
+          amount: "4166153809"
+      totalusd: "4166.153809"
+    - address: osmo1cw43g597cmvwwdq4uv9l7t0y0cg9pnk8uy9806lra7znl80xmgeqfj85fj
+      coins:
+        - denom: ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C
+          amount: "3185581886145866646055"
+        - denom: ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4
+          amount: "6635332478"
+      totalusd: "16356.317182"
+    - address: osmo1d2lj3nquzd3vjugx8rpww95cptekzlf6vdjnl5hpmxvztjaf4tms0lae6a
+      coins:
+        - denom: ibc/FBB3FEF80ED2344D821D4F95C31DBFD33E4E31D5324CAD94EF756E67B749F668
+          amount: "19071157517143651105"
+        - denom: ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5
+          amount: "58773701249745887533"
+      totalusd: "210742.469262"
+    - address: osmo1gv5405cldsvwwrajuhlasmxxvezrs4uch4r00w6ezdqfx4jsghnq2pca62
+      coins:
+        - denom: ibc/1B708808D372E959CD4839C594960309283424C775F4A038AAEBE7F83A988477
+          amount: "471432409692"
+        - denom: uosmo
+          amount: "49788731902"
+      totalusd: "156495.652730"
+    - address: osmo1e266z5nytx2cerslv9jw5z5c2zkrwqc7j4l625tkm8unfer6mfrqxmlggz
+      coins:
+        - denom: factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA
+          amount: "71247658135"
+        - denom: ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877
+          amount: "0"
+      totalusd: "1370100.303178"
+    - address: osmo1j5fncvh3w4agy6sn6ndtzsdmjvk8vmchrp39v2pa7va5wk6t2cnq3nrdmm
+      coins:
+        - denom: ibc/980E82A9F8E7CA8CD480F4577E73682A6D3855A267D1831485D7EBEF0E7A6C2C
+          amount: "72188350612239541974611"
+        - denom: ibc/831F0B1BBB1D08A2B75311892876D71565478C532967545476DF4C2D7492E48C
+          amount: "19154846146362398466262"
+      totalusd: "278823.937160"
+    - address: osmo1u4ppw4mxp00znxq5ll834dgr7ctd7jrp5hrzshch5ngfpwmp2fqsputgsx
+      coins:
+        - denom: ibc/698350B8A61D575025F3ED13E9AC9C0F45C89DEFE92F76D5838F1D3C1A7FF7C9
+          amount: "5704620172"
+        - denom: ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877
+          amount: "4289741924"
+      totalusd: "195940.713533"
+    - address: osmo10zz4f6r8eadk7qeanqzuudlj609hd80dhm34fm4cdv6mj5jcrtmq2pas46
+      coins:
+        - denom: ibc/9A76CDF0CBCEF37923F32518FA15E5DC92B9F56128292BC4D63C4AEA76CBB110
+          amount: "116457331663876078"
+        - denom: ibc/498A0751C798A0D9A389AA3691123DADA57DAA4FE165D5C75894505B876BA6E4
+          amount: "0"
+      totalusd: "0.833756"
+    - address: osmo17ehux9assm3csup79wlqa47fx9n8je0zalswqg5ylr3hwh8zdzsspmg9rk
+      coins:
+        - denom: ibc/9A76CDF0CBCEF37923F32518FA15E5DC92B9F56128292BC4D63C4AEA76CBB110
+          amount: "115003393974175205"
+        - denom: uosmo
+          amount: "0"
+      totalusd: "0.823347"
+totaltvl: "7267826.511698"
+grant: 629365
