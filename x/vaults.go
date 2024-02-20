@@ -27,6 +27,5 @@ var Vaults = []string{
 	"osmo1e266z5nytx2cerslv9jw5z5c2zkrwqc7j4l625tkm8unfer6mfrqxmlggz", // milkTIA/TIA Dynamic S+
 	"osmo1j5fncvh3w4agy6sn6ndtzsdmjvk8vmchrp39v2pa7va5wk6t2cnq3nrdmm", // stDYDX/DYDX Dynamic S+
 	"osmo1u4ppw4mxp00znxq5ll834dgr7ctd7jrp5hrzshch5ngfpwmp2fqsputgsx", // stTIA/TIA Dynamic S+
-	"osmo10zz4f6r8eadk7qeanqzuudlj609hd80dhm34fm4cdv6mj5jcrtmq2pas46", // DYM/USDC Dynamic A+
-	"osmo17ehux9assm3csup79wlqa47fx9n8je0zalswqg5ylr3hwh8zdzsspmg9rk", // DYM/OSMO Dynamic A+
+	"osmo1klzcjdcphaangl2gp9cxza9d2g50p7rarf4ktym3wles9gadqjhskzdk0s", // stkOSMO/OSMO Dynamic A+
 }
