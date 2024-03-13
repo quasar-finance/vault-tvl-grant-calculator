@@ -30,8 +30,6 @@ jobs:
           sudo mv osmosisd /usr/local/bin/
 
       - name: Fetch Prices
-        env:
-          OSMOSIS_RPC: ${{ env.OSMOSIS_RPC }}
         run: |
           go run main.go fetch-prices
 
