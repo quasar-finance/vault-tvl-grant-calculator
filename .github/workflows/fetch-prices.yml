@@ -27,7 +27,7 @@ jobs:
 
       - name: Fetch Prices
         env:
-          OSMOSIS_RPC: ${{ secrets.OSMOSIS_RPC }}
+          OSMOSIS_RPC: ${{ env.OSMOSIS_RPC }}
         run: |
           go run main.go fetch-prices
 
