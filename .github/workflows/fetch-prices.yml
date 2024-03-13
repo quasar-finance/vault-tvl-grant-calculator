@@ -6,6 +6,10 @@ on:
     - cron: '0 0 13 * *'
   workflow_dispatch:
 
+env:
+  # Setting an environment variable with the value of a configuration variable
+  OSMOSIS_RPC: ${{ vars.OSMOSIS_RPC }}
+
 jobs:
   fetch_prices:
     runs-on: ubuntu-latest
