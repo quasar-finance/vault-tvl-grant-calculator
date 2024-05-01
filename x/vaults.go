@@ -29,5 +29,5 @@ var Vaults = []string{
 	"osmo1u4ppw4mxp00znxq5ll834dgr7ctd7jrp5hrzshch5ngfpwmp2fqsputgsx", // stTIA/TIA Dynamic S+
 	"osmo1klzcjdcphaangl2gp9cxza9d2g50p7rarf4ktym3wles9gadqjhskzdk0s", // stkOSMO/OSMO Dynamic A+
 	"osmo1e6z70myfl9wlrnkkykluhhp6at70l9g7jma6ev7j564c5vuseh6qk8c26f", // stSAGA/SAGA Dynamic S+
-	"osmo1hndc6a7pynplcujdtlqw6kd4exfxgpp50vve925tn8tv34u5k08sxukzml", // IST/USDC Dynamic S+
+	"osmo1hndc6a7pynplcujdtlqw6kd4exfxgpp50vve925tn8tv34u5k08sxukzml", // IST/USDC Dynamic S+ 
 }
