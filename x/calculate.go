@@ -44,6 +44,7 @@ func GetVaultsTvl(blockHeight uint64) (VaultsTvlResponse, error) {
 	for _, vaultAddress := range Vaults {
 		// Construct and execute the command (this could be removed if we find a public archival node with lcd rest api endpoints, and if they support --height flag)
 		cmdStr := fmt.Sprintf("osmosisd q concentratedliquidity user-positions %s --node %s --height %d", vaultAddress, osmosisRPC, blockHeight)
+		fmt.Println(cmdStr)
 		cmdArgs := strings.Fields(cmdStr)
 		cmd := exec.Command(cmdArgs[0], cmdArgs[1:]...)
 		output, err := cmd.Output()
@@ -81,6 +82,9 @@ func GetVaultsTvl(blockHeight uint64) (VaultsTvlResponse, error) {
 		tvl.TotalUsd = fmt.Sprintf("%.6f", totalUsd) // Format to a fixed number of decimal places
 		totalTvl += totalUsd
 		vaultTvls = append(vaultTvls, tvl)
+
+		// Sleeps for 1 second avoiding RPCs rate limits
+		time.Sleep(2 * time.Second)
 	}
 
 	return VaultsTvlResponse{
