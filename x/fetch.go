@@ -20,11 +20,14 @@ func FetchPrices() ([]DenomPrice, error) {
 	var denomPrices []DenomPrice
 
 	for _, vaultAddress := range Vaults {
+		fmt.Println("Fetching prices for vault", vaultAddress)
 		// Construct and execute the command
 		cmdStr := fmt.Sprintf("osmosisd q concentratedliquidity user-positions %s --node %s", vaultAddress, osmosisRPC)
+		fmt.Println("Executing command:", cmdStr)
 		cmdArgs := strings.Fields(cmdStr)
 		cmd := exec.Command(cmdArgs[0], cmdArgs[1:]...)
 		output, err := cmd.Output()
+		fmt.Println("Output:", string(output))
 		if err != nil {
 			return nil, fmt.Errorf("error executing command for vault %s: %s", vaultAddress, err)
 		}
@@ -49,6 +52,10 @@ func FetchPrices() ([]DenomPrice, error) {
 				}
 			}
 		}
+
+		// Sleep to avoid rate limits
+		fmt.Println("Sleeping for 5 seconds...")
+		time.Sleep(5 * time.Second)
 	}
 
 	// Save to JSON file
